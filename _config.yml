@@ -14,6 +14,23 @@ livere: # [data-uid] on livere.com
 disqus: # [short_name] on disqus.com
 dove: # For fun ONLY. Set to true to 'disable' comments on your site.
 
+# Gitalk
+# Based on GitHub Issues
+# https://github.com/gitalk/gitalk
+gitalk:
+    enable: true
+    clientID: "你的 Client ID"
+    clientSecret: "你的 Client Secret"
+    repo: "Allengl.github.io" # 存储评论的仓库名
+    owner: "Allengl" # 你的 GitHub 用户名
+    admin: ["Allengl"] # 管理员 GitHub 用户名列表
+    language: "zh-CN" # 语言设置
+    labels: ["Gitalk"] # Issue 标签
+    perPage: 10 # 每页评论数
+    pagerDirection: "last" # 排序方式
+    distractionFreeMode: false # 无干扰模式
+    createIssueManually: false # 是否手动创建 Issue
+
 # Set true to show the page indicator.
 showPageCount: true
 
