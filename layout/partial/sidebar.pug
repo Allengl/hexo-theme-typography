@@ -4,6 +4,8 @@ div#side-bar.col-sm-3.col-xs-12.side-container.invisible
             a.a-title(href=config.root)= theme.title_secondary
         h1.site-title-large(tabindex="-1")
             a.a-title(href=config.root)= theme.title_primary
+        if config.subtitle
+            h6.site-subtitle(tabindex="-1")= config.subtitle
         //h6(onclick="triggerSiteNav()") Trigger
     br.visible-lg.visible-md.visible-sm
     include nav
